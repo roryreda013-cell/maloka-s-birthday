@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#f3edf9">
+
+    <meta name="description"
+          content="A little world made with love, memories, flowers and birthday wishes.">
+
+    <title>A Little World For You 💜</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Comfortaa:wght@400;500;600;700&family=Pacifico&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Floating Decorations -->
+    <div class="floating-decor decor-one">🦋</div>
+    <div class="floating-decor decor-two">🌷</div>
+    <div class="floating-decor decor-three">♡</div>
+    <div class="floating-decor decor-four">✨</div>
+    <div class="floating-decor decor-five">🦋</div>
+
+    <!-- =================================
+         1. INTRO / SURPRISE ENVELOPE
+    ================================== -->
+
+    <section id="intro" class="intro-screen">
+
+        <div class="intro-card">
+
+            <span class="intro-bunny">🐰</span>
+
+            <div class="intro-flower">🌷</div>
+
+            <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+
+            <h1>
+                Hey, birthday girl!
+                <span>💜</span>
+            </h1>
+
+            <p class="intro-description">
+              ♡   عملتلك عالم صغير مليان حب وذكريات ♡ 
+              <p> ♡  اتمني يبقي ذكري حلوه معاكي ع طول ♡ </p>            </p>
+
+            <div class="envelope" id="envelope">
+                <div class="envelope-heart">💌</div>
+            </div>
+
+            <button class="primary-button" id="openSurprise">
+                Open your surprise ✨
+            </button>
+
+            <p class="tiny-note">
+                Made with love, just for you.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         MAIN WEBSITE
+    ================================== -->
+
+    <main id="mainWebsite" class="hidden">
+
+        <!-- NAVBAR -->
+
+        <header class="navbar">
+
+            <a href="#home" class="logo">
+                little<span>♡</span>world
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+
+                <a href="#home">Home</a>
+
+                <a href="#memories">Memories</a>
+
+                <a href="#videos">Our Videos</a>
+
+                <a href="#letters">Letters</a>
+
+                <a href="#music">Music</a>
+
+                <a href="#birthday">Wish ♡</a>
+
+            </nav>
+
+        </header>
+
+
+        <!-- =================================
+             2. HERO
+        ================================== -->
+
+        <section id="home" class="hero section-padding">
+
+            <div class="hero-content">
+
+                <div class="mini-label">
+                    ✿ YOUR SPECIAL LITTLE DAY ✿
+                </div>
+
+                <h1>
+                    To my favorite
+                    <span class="lavender-text"></span>girl</span>
+
+                    <br>
+
+                    happy birthday!
+                    <span class="heart">♡</span>
+                </h1>
+
+                <p class="hero-arabic" dir="rtl">
+                    كل سنة وإنتِ أجمل حاجة في الدنيا،
+                    وكل سنة وضحكتك منورة حياة كل اللي حواليكي.
+                </p>
+
+                <p class="hero-english">
+                    A little corner of the universe,
+                    made just to celebrate YOU.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#memories" class="primary-button">
+                        Let's explore ♡
+                    </a>
+
+                    <a href="#letters" class="secondary-button">
+                        Your letters 💌
+                    </a>
+
+                </div>
+
+                <div class="hero-decoration">
+                    🧸 🌷 🦋
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="hero-sparkle sparkle-one">✦</div>
+                <div class="hero-sparkle sparkle-two">✧</div>
+                <div class="hero-sparkle sparkle-three">♡</div>
+
+                <div class="hero-photo-frame">
+
+                    <img
+                        src="WhatsApp Image 2026-10-19 at 19.48.31.jpeg"
+                        alt="Birthday girl"
+                        class="hero-photo"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                    >
+
+                    <div class="photo-placeholder">
+                        <span>📸</span>
+
+                        <p>
+                            Your favorite picture goes here ♡
+                        </p>
+
+                        <small>
+                            <img src="WhatsApp Image 2026-10-19 at 20.15.24.jpeg" alt="error">
+                        </small>
+                    </div>
+
+                </div>
+
+                <div class="floating-sticker sticker-bunny">
+                    🐰
+                </div>
+
+                <div class="floating-sticker sticker-bear">
+                    🧸
+                </div>
+
+                <div class="floating-sticker sticker-flower">
+                    🌷
+                </div>
+
+            </div>
+
+            <a href="#memories" class="scroll-hint">
+                SCROLL TO OUR LITTLE WORLD ↓
+            </a>
+
+        </section>
+
+
+        <!-- =================================
+             3. MEMORIES GALLERY
+        ================================== -->
+
+        <section id="memories"
+                 class="memories-section section-padding">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    OUR LITTLE ARCHIVE 📸
+                </span>
+
+                <h2>
+                    Little moments,
+                    <span>big memories.</span>
+                </h2>
+
+                <p dir="rtl">
+                    شوية صور، شوية ضحك، وذكريات كتير أوي بحبها.
+                </p>
+
+            </div>
+
+
+            <div class="memory-grid">
+
+                <!-- MEMORY 1 -->
+
+                <article class="memory-card rotate-left">
+
+                    <button class="memory-image-button"
+                            data-image="assets/images/memory1.jpg"
+                            data-caption="One of my favorite memories ♡"
+                            aria-label="View memory one">
+
+                        <img
+                            src="WhatsApp Image 2026-10-19 at 20.15.24.jpeg"
+                            alt="Our memory one"
+                            loading="lazy"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                        >
+
+                        <div class="image-placeholder">
+                            <span>🌷</span>
+                            <p>Your photo here</p>
+                        </div>
+
+                    </button>
+
+                    <div class="memory-caption">
+                        <span>♡</span>
+                        <p>One of my favorite days</p>
+                    </div>
+
+                </article>
+
+
+                <!-- MEMORY 2 -->
+
+                <article class="memory-card rotate-right">
+
+                    <button class="memory-image-button"
+                            data-image="assets/images/memory2.jpg"
+                            data-caption="love moments with you  "
+                            aria-label="View memory two">
+
+                        <img
+                            src="WhatsApp Image 2026-10-20 at 00.05.19.jpeg"
+                            alt="Our memory two"
+                            loading="lazy"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                        >
+
+                        <div class="image-placeholder">
+                            <span>🧸</span>
+                            <p>Your photo here</p>
+                        </div>
+
+                    </button>
+
+                    <div class="memory-caption">
+                        <span>✿</span>
+                        <p>love moments with you </p>
+                    </div>
+
+                </article>
+
+
+                <!-- MEMORY 3 -->
+
+                <article class="memory-card rotate-right">
+
+                    <button class="memory-image-button"
+                            data-image="assets/images/memory3.jpg"
+                            data-caption="A day worth remembering."
+                            aria-label="View memory three">
+
+                        <img
+                            src="WhatsApp Image 2026-10-20 at 00.05.28.jpeg"
+                            alt="Our memory three"
+                            loading="lazy"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                        >
+
+                        <div class="image-placeholder">
+                            <span>🦋</span>
+                            <p>Your photo here</p>
+                        </div>
+
+                    </button>
+
+                    <div class="memory-caption">
+                        <span>♡</span>
+                        <p>A day worth remembering</p>
+                    </div>
+
+                </article>
+
+
+                <!-- MEMORY 4 -->
+
+                <article class="memory-card rotate-left">
+
+                    <button class="memory-image-button"
+                            data-image="assets/images/memory4.jpg"
+                            data-caption="More memories, more years together 💜"
+                            aria-label="View memory four">
+
+                        <img
+                            src="WhatsApp Image 2026-10-20 at 00.05.29.jpeg"
+                            alt="Our memory four"
+                            loading="lazy"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                        >
+
+                        <div class="image-placeholder">
+                            <span>💜</span>
+                            <p>Your photo here</p>
+                        </div>
+
+                    </button>
+
+                    <div class="memory-caption">
+                        <span>✿</span>
+                        <p>More memories to come</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div class="memory-footer">
+                <span>🌷</span>
+
+                <p>
+                    The best memories are the ones we make together.
+                </p>
+
+                <span>🦋</span>
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             4. VIDEOS
+        ================================== -->
+
+        <section id="videos"
+                 class="videos-section section-padding">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    LITTLE MOMENTS ON REPLAY 🎞️
+                </span>
+
+                <h2>
+                    If only we could
+                    <span>pause time.</span>
+                </h2>
+
+                <p dir="rtl">
+                    فيديوهات صغيرة، بس كل واحد فيهم وراه حكاية.
+                </p>
+
+            </div>
+
+
+            <div class="video-grid">
+
+                <article class="video-card">
+
+                    <video controls playsinline preload="metadata">
+
+                        <source
+                            src="WhatsApp Video 2026-10-20 at 01.14.12.mp4"
+                            type="video/mp4"
+                        >
+
+                        Your browser does not support video playback.
+
+                    </video>
+
+                    <div class="video-caption">
+
+                        <span>🎀</span>
+
+                        <div>
+                            <h3>My princess</h3>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="video-card">
+
+                    <video controls playsinline preload="metadata">
+
+                        <source
+                            src="WhatsApp Video 2026-10-20 at 01.34.36.mp4"
+                            type="video/mp4"
+                        >
+
+                        Your browser does not support video playback.
+
+                    </video>
+
+                    <div class="video-caption">
+
+                        <span>🧸</span>
+
+                        <div>
+                            <h3>Just us being us</h3>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             5. FRIENDS' NOTES
+        ================================== -->
+
+        <section id="letters"
+                 class="letters-section section-padding">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    SEALED WITH LOVE 💌
+                </span>
+
+                <h2>
+                    A little box
+                    <span>full of love.</span>
+                </h2>
+
+                <p dir="rtl">
+                    كل رسالة هنا معمولة عشان تفكرك قد إيه إنتِ غالية.
+                </p>
+
+            </div>
+
+
+            <div class="letter-intro">
+
+                <div class="letter-box-icon">
+                    🎁
+                </div>
+
+                <p>
+                    Pick a letter, birthday girl!
+                </p>
+
+                <small>
+                    اختاري رسالة وافتحيها ♡
+                </small>
+
+            </div>
+
+
+            <div class="letters-grid">
+
+
+                <!-- YOUR LETTER -->
+
+                <button class="letter-card lavender-card"
+                        data-title="A letter from me 💜"
+                        data-message="كل سنة وإنتِ طيبة يا أجمل وأحن صاحبة. أنا ممتنة لكل لحظة جمعتنا، ولكل ضحكة ولكل ذكرى بقت جزء من حياتي. بتمنالك سنة كلها فرحة ونجاح ، وتفضلي دايمًا منورة الدنيا بطريقتك. مهما عدت سنين، أتمنى نفضل نكبر ونحقق أحلامنا وإحنا جنب بعض. بحبك أوي يا صاحبتي. ♡">
+
+                    <span class="letter-icon">💌</span>
+
+                    <span class="letter-title">
+                        From me, to you
+                    </span>
+
+                    <span class="letter-subtitle">
+                       افتحي رسالتي يا أجمل ملوكه
+                    </span>
+
+                    <span class="letter-open">
+                        OPEN LETTER ↗
+                    </span>
+
+                </button>
+
+
+                <!-- FRIEND 1 -->
+
+                <button class="letter-card green-card"
+                        data-title="A little note from [Friend 1] 🌷"
+                        data-message="كل سنة وانتي طيبة يا صديقة العمر، وعقبال مليون سنة يا رب، تحققي كل الي نفسك فيه وربنا يديمك نعمة في حياتي  بجد مش عارفة أقولك إيه ولا أبدأ منين، بس كل اللي أعرفه إني بحمد ربنا إنك في حياتي، وإنه رزقني بحد زيك أقدر أكون معاه على طبيعتي من غير ما أفكر هيفهمني ولا لأ، حد يعرفني من نظرة ويفهم زعلي حتى لو مخبيّاه، وحد أقدر أضحك معاه من قلبي وأحكيله كل حاجة مهما كانت تافهة أو كبيرة. إنتي بالنسبالي مش مجرد صاحبتي، إنتي جزء من عمري وذكرياتي، وجزء من حاجات كتير حلوة جوايا، وفي حاجات كتير في حياتي مش هتبقى بنفس الحلاوة من غيرك. ♥️🥹🫂">
+
+                    <span class="letter-icon">🌷</span>
+
+                    <span class="letter-title">
+                        From Sama
+                    </span>
+
+                    <span class="letter-subtitle">
+                        A little flower of love
+                    </span>
+
+                    <span class="letter-open">
+                        OPEN LETTER ↗
+                    </span>
+
+                </button>
+
+
+                <!-- FRIEND 2 -->
+
+                <button class="letter-card pink-card"
+                        data-title="A little note from [Friend 2] 🦋"
+                        data-message="الي اغلي مااملك الي توأم روحي وحبيبة قلبي ونور عيني الي بنتي وحبيبتي واحلي البنات كوكا ❤️كل عام وانتي مليه عليا دنيتي بضحكتك الحلوه واشوفك أسعد البنات ربنا يسعد قلبك ويفرح ايامك بكل خير وعقبال يارب ١٠٠عام وتحققي كل لتتمنيه  عيد ميلاد سعيد❤️">
+
+                    <span class="letter-icon">🦋</span>
+
+                    <span class="letter-title">
+                        from your mum
+                    </span>
+
+                    <span class="letter-subtitle">
+                        Someone loves you lots
+                    </span>
+
+                    <span class="letter-open">
+                        OPEN LETTER ↗
+                    </span>
+
+                </button>
+
+            <!--FRIEND3-->
+                
+             <button class="letter-card cream-card"
+        type="button"
+        data-voice="WhatsApp-Audio-2026-10-22-at-19.53.22.mp3">
+
+    <span class="letter-icon">🎙️</span>
+
+    <span class="letter-title">
+        from your dad ❤️
+    </span>
+
+    <span class="letter-subtitle">
+        A little voice message just for you
+    </span>
+
+    <span class="letter-open">
+        ▶ LISTEN TO MY VOICE
+    </span>
+
+</button>
+
+                <!-- FRIEND 4 -->
+
+                <button class="letter-card cream-card"
+                        data-title="A note just for you ✨"
+                        data-message="كل سنه وانت طيبه ي احلي واحن اخت ف الدنيا  وان شاء الله تحققي كل اللي نفسك فيه وديما في خير وسعاده يارب وعقبال مليون سنه وعقبال ما افرح بيكي ان شاء الله 
+H.B.D koka">
+                    <span class="letter-icon">✨</span>
+
+                    <span class="letter-title">
+                        from your brother
+                    </span>
+
+                    <span class="letter-subtitle">
+                        A little reminder of your worth
+                    </span>
+
+                    <span class="letter-open">
+                        OPEN LETTER ↗
+                    </span>
+
+                </button>
+
+
+
+                
+               
+            <p class="letters-footer" dir="rtl">
+                احتفظي بالرسائل دي جوا قلبك، زي ما إحنا محتفظين بيكي جوا قلوبنا ♡
+            </p>
+
+        </section>
+
+
+        <!-- =================================
+             6. THINGS WE LOVE ABOUT YOU
+        ================================== -->
+
+        <section id="little-things"
+                 class="little-things-section section-padding">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    LITTLE THINGS, BIG LOVE ✨
+                </span>
+
+                <h2>
+                    Things that make you
+                    <span>special.</span>
+                </h2>
+
+                <p dir="rtl">
+                    دوسي على كل كارت واكتشفي رسالة صغيرة.
+                </p>
+
+            </div>
+
+
+            <div class="qualities-grid">
+
+                <button class="quality-card"
+                        data-message="ضحكتك لوحدها كفاية تغير مود يوم كامل. Never stop smiling! ♡">
+
+                    <span>🌸</span>
+
+                    <strong>Your smile</strong>
+
+                    <small>Tap to discover ♡</small>
+
+                </button>
+
+
+                <button class="quality-card"
+                        data-message="قلبك الحلو و الطيب من أكتر الحاجات اللي بحبها فيكي. You're a beautiful soul. 💜">
+
+                    <span>💜</span>
+
+                    <strong>Your kind heart</strong>
+
+                    <small>Tap to discover ♡</small>
+
+                </button>
+
+
+                <button class="quality-card"
+                        data-message="حتى الأيام العادية بتبقى أحلى بوجودك. You make ordinary days magical. ✨">
+
+                    <span>🦋</span>
+
+                    <strong>Your energy</strong>
+
+                    <small>Tap to discover ♡</small>
+
+                </button>
+
+
+                <button class="quality-card"
+                        data-message="مهما الدنيا اتغيرت، أتمنى تفضلي فاكرة إنك تستاهلي كل حاجة حلوة. Always be you. 🌷">
+
+                    <span>🐰</span>
+
+                    <strong>The real you</strong>
+
+                    <small>Tap to discover ♡</small>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             7. MUSIC CORNER
+        ================================== -->
+
+        <section id="music"
+                 class="music-section section-padding">
+
+            <div class="music-layout">
+
+                <div class="music-text">
+
+                    <span class="section-label">
+                        OUR LITTLE SOUNDTRACK 🎧
+                    </span>
+
+                    <h2>
+                        Songs that
+                        <span>feel like you.</span>
+                    </h2>
+
+                    <p dir="rtl">
+                        عشان في أغاني أول ما بنسمعها بنفتكر ناس معينة.
+                        ودي شوية أغاني حبيت أجمعهالك.
+                    </p>
+
+                    <div class="music-bunnies">
+                        🐰 🎧 🧸
+                    </div>
+
+                </div>
+
+
+                <div class="playlist-card">
+
+                    <div class="playlist-cover">
+
+                        <div class="vinyl-record">
+                            <div class="vinyl-center">♡</div>
+                        </div>
+
+                        <div class="playlist-flowers">
+                            🌷 🦋
+                        </div>
+
+                    </div>
+
+
+                    <div class="playlist-info">
+
+                        <span class="playlist-label">
+                            A PLAYLIST FOR YOU
+                        </span>
+
+                        <h3>For my favorite girl ♡</h3>
+
+                        <p>
+                            A little music, a lot of memories.
+                        </p>
+
+                    </div>
+
+<div class="song-list">
+
+<!-- SONG 1 -->
+<article class="song-item">
+
+    <div class="song-number">01</div>
+
+    <div class="song-details">
+        <strong>تعدي سنين وهي تحلى وبتحلى ♡</strong>
+        <small>your fav song</small>
+    </div>
+
+    <button
+        class="song-link"
+        type="button"
+        aria-label="Play birthday song"
+        onclick="playSong(this, '08_-_Mesh_Sahla.mp3')">
+        ▶
+    </button>
+
+</article>
+
+
+<!-- SONG 2 -->
+<article class="song-item">
+
+    <div class="song-number">02</div>
+
+    <div class="song-details">
+        <strong>birthday song 🎧 🧸</strong>
+        <small>kol sana w enty el 7ob</small>
+    </div>
+
+    <button
+        class="song-link"
+        type="button"
+        aria-label="Play birthday song two"
+        onclick="playSong(this, 'Albumaty.Com_mhmwd_alasyly_kl_snt_-_ealan_wady_dglt_llttwyr_alakary.mp3')">
+        ▶
+    </button>
+
+</article>
+
+
+<!-- SONG 3 -->
+<article class="song-item">
+
+    <div class="song-number">03</div>
+
+    <div class="song-details">
+        <strong>A song that reminds me of us</strong>
+        <small>kol youm a7la beky</small>
+    </div>
+
+    <button
+        class="song-link"
+        type="button"
+        aria-label="Play birthday song three"
+        onclick="playSong(this, 'Albumaty.Com_alysa_kl_ywm_ahly_ywm_-_ealan_wy_rmdan_2026.mp3')">
+        ▶
+    </button>
+
+</article>
+
+<!-- Hidden audio player -->
+<audio id="birthdayAudio" preload="none"></audio>
+
+</div>
+
+
+
+                    <p class="playlist-footer">
+                        Every song has a story, and you are part of mine. 💜
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             8. HIDDEN SURPRISE
+        ================================== -->
+
+        <section id="secret"
+                 class="secret-section section-padding">
+
+            <div class="secret-card">
+
+                <div class="secret-bunny">
+                    🐰
+                </div>
+
+                <span class="section-label">
+                    PSST... A LITTLE SECRET
+                </span>
+
+                <h2>
+                    I hid something
+                    <span>just for you.</span>
+                </h2>
+
+                <p dir="rtl">
+                    في رسالة صغيرة مستنياكي هنا.
+                    جربي تدوسي على الزرار وشوفي إيه اللي مستخبي.
+                </p>
+
+                <button class="primary-button"
+                        id="secretButton">
+
+                    Reveal the secret ✨
+
+                </button>
+
+                <div class="secret-message hidden"
+                     id="secretMessage">
+
+                    <div class="secret-heart">💗</div>
+
+                    <h3>One little reminder...</h3>
+
+                    <p dir="rtl">
+                        مهما كبرنا ومهما الدنيا خدتنا في طرق مختلفة،
+                        إنتِ ليكي مكانة خاصة عندي، ووجودك في حياتي
+                        من الحاجات اللي بجد ممتنة ليها.
+                    </p>
+
+                    <p>
+                        You will always be someone worth celebrating. ♡
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             9. BIRTHDAY WISH
+        ================================== -->
+
+        <section id="birthday"
+                 class="birthday-section section-padding">
+
+            <div class="birthday-content">
+
+                <div class="birthday-decor">
+                    🌷 🦋 🌷
+                </div>
+
+                <span class="section-label">
+                    ONE LAST THING, BIRTHDAY GIRL
+                </span>
+
+                <h2>
+                    Make a wish,
+                    <span>my girl!</span>
+                </h2>
+
+                <p dir="rtl">
+                    غمضي عينيكي، اتمني أمنية حلوة،
+                    واستعدي لسنة جديدة كلها خير وضحك ونجاح.
+                </p>
+
+
+                <div class="birthday-cake" id="birthdayCake">
+
+                    <div class="cake-candles">
+
+                        <button class="candle"
+                                aria-label="Blow out candle one">
+
+                            <span class="flame"></span>
+
+                        </button>
+
+                        <button class="candle"
+                                aria-label="Blow out candle two">
+
+                            <span class="flame"></span>
+
+                        </button>
+
+                        <button class="candle"
+                                aria-label="Blow out candle three">
+
+                            <span class="flame"></span>
+
+                        </button>
+
+                    </div>
+
+                    <div class="cake-top"></div>
+
+                    <div class="cake-middle"></div>
+
+                    <div class="cake-bottom"></div>
+
+                    <div class="cake-plate"></div>
+
+                </div>
+
+
+                <button class="primary-button"
+                        id="makeWish">
+
+                    I made a wish! ✨
+
+                </button>
+
+
+                <div class="wish-result hidden" id="wishResult">
+
+                    <h3>Happy Birthday, beautiful! 💜</h3>
+
+                    <p dir="rtl">
+                        يا رب السنة دي تكون أحن عليكي من كل السنين
+                        اللي فاتت، وتحققي كل اللي نفسك فيه،
+                        وتفضلي دايمًا مبسوطة ومطمنة.
+                    </p>
+
+                    <p>
+                        Here's to more years, more laughter,
+                        and more memories together. ♡
+                    </p>
+
+                    <div class="wish-flowers">
+                        🌷 🧸 🦋 🌷
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             10. FINAL LETTER
+        ================================== -->
+
+        <section id="final-letter"
+                 class="final-section section-padding">
+
+            <div class="final-paper">
+
+                <div class="final-sticker">
+                    💌
+                </div>
+
+                <span class="section-label">
+                    FROM MY HEART TO YOURS
+                </span>
+
+                <h2>
+                    To my forever
+                    <span>favorite person.</span>
+                </h2>
+
+                <div class="final-message" dir="rtl">
+
+                    <p>
+                        كل سنة وإنتِ طيبة يا حبيبتي،
+                        وكل سنة وإنتِ محققة حاجات جديدة
+                        وفخورة بنفسك وبكل خطوة بتاخديها.
+                    </p>
+
+                    <p>
+                        أتمنى أيامك الجاية تكون مليانة
+                        راحة بال، وضحك من القلب،
+                        وناس بتحبك بجد، وفرص حلوة
+                        تليق بيكي وبأحلامك.
+                    </p>
+
+                    <p>
+                        شكرًا على كل ذكرى، وكل ضحكة،
+                        وكل لحظة خلت حياتي أحلى.
+                        ويا رب نفضل نضيف صور وحكايات
+                        جديدة للألبوم ده سنين طويلة.
+                    </p>
+
+                    <p class="final-love">
+                        بحبك أوي، وكل سنة وإنتِ أجمل هدية. 💜
+                    </p>
+
+                </div>
+
+
+                <div class="signature">
+                    <span>Made with all my love,</span>
+
+                    <strong>Your bestie ♡</strong>
+                </div>
+
+                <div class="final-decor">
+                    🧸 🌷 🐰 🦋
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer class="footer">
+
+            <div class="footer-heart">♡</div>
+
+            <p>
+                Made with love, memories & a little bit of magic.
+            </p>
+
+            <span>
+                Just for you, birthday girl. 💜
+            </span>
+
+        </footer>
+
+
+        <!-- BACK TO TOP -->
+
+        <button id="backToTop"
+                class="back-to-top"
+                aria-label="Back to top">
+
+            ↑
+
+        </button>
+
+    </main>
+
+
+    <!-- =================================
+         REUSABLE MODAL
+    ================================== -->
+
+    <div class="modal hidden"
+         id="contentModal"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modalTitle">
+
+        <div class="modal-content">
+
+            <button class="modal-close"
+                    id="closeModal"
+                    aria-label="Close">
+
+                ×
+
+            </button>
+
+            <div class="modal-flower">🌷</div>
+
+            <h2 id="modalTitle"></h2>
+
+            <p id="modalMessage" dir="auto"></p>
+
+            <button class="primary-button"
+                    id="modalOkay">
+
+                Sending you a hug ♡
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- CONFETTI CONTAINER -->
+
+    <div id="confettiContainer"
+         class="confetti-container"
+         aria-hidden="true">
+
+    </div>
+<audio id="letterVoice" preload="none"></audio>
+</body>
+</html>
+
